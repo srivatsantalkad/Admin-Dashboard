@@ -57,7 +57,14 @@
 
 .projects-container {
     grid-area: projects-container;
+
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
 }
+
+
 .announcements-container {
     grid-area: announcements-container;
 }
