@@ -3,5 +3,22 @@
 }
 .main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 15vh 85vh;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar thejuice"
+        "sidebar thejuice";
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.header {
+    grid-area: header;
+}
+
+.thejuice {
+    grid-area: thejuice;
 }
