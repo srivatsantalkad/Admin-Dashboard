@@ -44,4 +44,23 @@
 
 .cards-container {
     grid-area: cards-container;
+
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 55% 45%;
+
+    grid-template-areas:
+        "projects-container announcements-container"
+        "projects-container trending-container";
+
+}
+
+.projects-container {
+    grid-area: projects-container;
+}
+.announcements-container {
+    grid-area: announcements-container;
+}
+.trending-container {
+    grid-area: trending-container;
 }
