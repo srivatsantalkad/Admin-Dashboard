@@ -1,5 +1,7 @@
 * {
     border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 .main {
     display: grid;
@@ -13,6 +15,14 @@
 
 .sidebar {
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav {
+    list-style: none;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .header {
