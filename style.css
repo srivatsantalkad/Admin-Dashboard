@@ -82,6 +82,10 @@
 
 .announcements-container {
     grid-area: announcements-container;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 .trending-container {
     grid-area: trending-container;
